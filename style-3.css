@@ -1,0 +1,172 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.main {
+    position: relative;
+}
+
+.main__container-first {
+    background-color: #79C0E4;
+    height: 70vh;
+}
+
+.main__container-second {
+    background-color: #F1EDDB;
+    height: 30vh;
+}
+
+.main__svg {
+    position: absolute;
+}
+
+.main__svg-text {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: white;
+}
+
+.main__svg--1 {
+    width: 150px;
+    animation: appear1 8s ease-in-out infinite;
+}
+
+@keyframes appear1 {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.main__text {
+    animation: appear2 8s ease-in-out infinite;
+}
+
+@keyframes appear2 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    85% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.main__title {
+    font-size: 50px;
+}
+
+.main__paragraph {
+    font-size: 20px;
+}
+
+.main__svg.main__svg--2 {
+    width: 120px;
+    bottom: 25%;
+    left: 50%;
+    animation: appear3 8s ease-in-out infinite;
+}
+
+@keyframes appear3 {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.main__svg.main__svg--3 {
+    width: 50px;
+    bottom: 10%;
+    right: 0;
+    opacity: 0;
+    animation: right-animation 8s ease infinite;
+}
+
+@keyframes right-animation {
+    0% {
+        opacity: 0;
+        right: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    50% {
+        right: 15%;
+    }
+    90%{
+        opacity: 1;
+        right: 15%;
+    }
+    95% {
+        right: 0;
+        opacity: 0;
+    }
+}
+
+.main__svg.main__svg--4 {
+    width: 250px;
+    bottom: 0;
+    right: 15%;
+}
+
+.main__svg.main__svg--5 {
+    width: 150px;
+    bottom: 10%;
+    left: 0;
+    opacity: 0;
+    animation: left-animation 8s ease infinite;
+}
+
+@keyframes left-animation {
+    0% {
+        opacity: 0;
+        left: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    50% {
+        left: 10%;
+    }
+    90%{
+        opacity: 1;
+        left: 10%;
+    }
+    95% {
+        left: 0;
+        opacity: 0;
+    }
+}
